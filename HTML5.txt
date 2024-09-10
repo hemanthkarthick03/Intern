@@ -1,0 +1,88 @@
+ HTML5 Semantic Elements
+
+
+ Which of the following tag represents an independent piece of content of a document in HTML5? -- article
+
+ What happens if you view a new HTML5 form input type in an older browser --  It reverts to standard text input
+
+ Which of the following input control represents a date (year, month, day) encoded according to ISO 8601 in Web Form 2.0? -- date
+
+ What is the HTML5 Stack? -- HTML5, CSS3, JavaScript
+
+What is the recommended method to detect browser compatibility for features -- use modernizr
+
+Which HTML5 tag would you use to define footer? -- footer
+
+Which Semantic element is best suitable for content like blog post that is self contained, independent and can be republished? -- article
+
+Which of the following tags represents a section of document used for navigation? -- nav
+
+Which of the following tags are no longer valid in HTML5? - align
+
+Which of the following attribute triggers events when a form changes? -- onformchange
+
+What are the new form elements introduced in HTML5 --- datalist,keygen, output
+
+HTML5 audio tag has a number of attributes to control the look and feel and various functionalities of the audio player. Which of the following is not an attribute of HTML5 audio element? -- stop
+
+Which attribute of the video tag specifies an image to be shown while the video is downloading? -- poster
+
+How do you embed a video player using -- iframe
+
+The controls attribute adds audio/video controls like PLAY, PAUSE and VOLUME - true
+
+Audio element can be programmatically controlled from -- javascript
+
+SVG is mostly useful for vector type diagrams like -- Charts and 2D Graphs
+
+Which of the following is not true about SVG graphics?-- Graphics in SVG are defined using Java script
+
+Scalable Vector Graphics are defined in which markup language? -- xml
+
+How do you place a canvas element with an ID of canvas1 into a JavaScript variable? -- var canvas1 = document.getElementById('canvas1');
+
+Which of the following is not true about Canvas? -- Each shape in Canvas is looked at as an object
+
+Which of the following is true about 'canvas' tag in HTML5? (I) Easy way to draw graphics using JavaScript (II) Can be use to make Animations --- I & II
+
+Which is best suited for applications with large rendering areas e.g.: Google maps? -- svg
+
+Websites can store data on users computer using Web Storage. How is Web Storage different from Cookies? -- all
+
+Which API can be used to display thumbnail image of a file being uploaded in a HTML5 Photo sharing website? -- File API
+
+Which of the following statements about Modernizer is true? -- It detects which features the browser supports
+
+Data from Web Storage is sent to server with every request, giving a big advantage compared to Cookies. -- false
+
+Application Cache enables -- all 
+
+Which for the following API's can be used to suggest near by restaurants in a restaurant finder app? -- geolocation api
+
+Which of the following is not a localStorage function? --getElementbyID()
+
+Web Apps can start faster and work even if there is no internet connection when you use --- app cache
+
+Which of the following new features of HTML5 can be used for long running tasks? -- web workers
+
+
+Which relies on proprietary technology that is not open source? --- flash
+
+Is HTML5 Backward Compatible -true
+
+Which of the following is not suited for game applications? -svg
+
+Semantic HTML5 elements allows data to be shared and reused across applications, enterprises, and communities. -- true
+
+Which of the following attribute triggers event when an element is dragged? --ondrag
+
+Which of the following is the major enhancement in HTML5 when compared to HTML4? -- all
+
+Are HTML5 tags case sensitive - no
+
+Which of the following input control represents a date consisting of a year and a week number encoded according to ISO 8601 in Web Form 2.0? -- week
+
+Which of the following attribute specifies whether or not a user is allowed to drag an element? -draggable
+
+
+

@@ -1,0 +1,136 @@
+Java8 Innards
+
+Parameter types be inferred in Lambda expressions ? -- true
+
+Lambda Expressions are based on -- functional programming
+
+Following lambda expression is valid (x, y) -> return x + y -- false
+
+public interface Adder {     String add(Function<String, String> f);     void add(Consumer<Integer> f); }   public class AdderImpl implements Adder {       @Override     public  String add(Function<String, String> f) {         return f.apply("Welcome ");     }       @Override     public void add(Consumer<Integer> f) {} } On calling add() method as described below, String r = adderImpl.add(a -> a + " lambda"); System.out.println(r); -- Runtime error
+
+public class App{ public static void main(String [] args){ String name="WelcomeJava"; Runnable r1=() -> System.out.println(name); String name1=""; name1=name.toUpperCase(); Runnable r2=() -> System.out.println(name1); r1.run(); } } What is the o/p of the above program? -- compilation error
+
+which of the following are not valid lambda expressions? -- None
+
+Lambda Expressions in Java allow us to treat -- code as data
+
+Which of the following is correct about Java 8 lambda expression? -- both
+
+Object o = () -> {System.out.println(“Example”); }; Object o can be replaced with ? -- runnable r
+
+Which of the following are valid uses of lambda expressions? -- 
+public void execute(Runnable r){ r.run(); } Execute(() -> {});
+
+Which of the following functional interface represents an operation that accepts an object-valued and an int-valued argument, and returns no result? -- ObjIntConsumer<T>
+
+Which of the following functional interface represents an operation upon two long-valued operands and produces a long-valued result? -- LongBinaryOperator
+
+What functional interface would you use for the following? No parameters , returns a value -- supplier
+
+Which of the following functional interface represents a function that accepts an int-valued argument and produces a long-valued result? -- 
+IntToLongFunction
+
+A FunctionalInterface annotation (@FunctionalInterface) is necessary for making an interface a functional interface -- false
+
+Which of these interfaces are functional interfaces? -- 
+public interface Cards{ int totalCount(int a, int b); }
+
+Below code includes a valid Functional Interface ? package functionalInterfaceExample;
+
+@FunctionalInterface public interface MyFirstFunctionalInterface { public void firstWork(); @Override public String toString();
+@Override public boolean equals(Object obj);
+} -- true
+
+Which of the following functional interface represents an operation that accepts a single input argument and returns no result?--Consumer<T>
+
+A functional interface acts as target types for which of the following?-- all
+
+Terminal operation produces another stream as its output -- false
+
+Each pipeline ends with a -- terminal
+
+If you wanted to process a stream of names, extract the male names, and store them in a new List, What is the appropriate operation to be used? -- Both Stream.reduce and Stream.collect*
+
+The newly introduced Streams API is available in which package of java 8 --java.util.stream
+
+Stream operations in java 8 can be divided into -- all
+
+Identify intermediate and terminal operations in the code. double average = roster .stream() .filter(p -> p.getGender() == Person.Sex.MALE) .mapToInt(Person::getAge) .average() .getAsDouble(); --Intermediate: filter, mapToInt Terminal: average
+
+Which of these does Stream filter() operates on -- predicate
+
+Stream operation iterations are internal over the source of elements -- false
+
+Which of the following is valid Stream operation type -- both
+
+
+Optional type validation can be used to substitute runtime validations. -- false
+
+On which of these does annotations can be used on in Java 8 -- all
+
+Type annotation used to depict non blank string value -- @notblank
+
+Repeating annotations can be added with below 2 declarations -- 
+Declare a repeatable annotation type
+Declare the containing annotation type
+
+Repeating annotations can be retrieved using -- getAnnotationsByType()
+
+====================
+
+
+In java 8, Static methods cannot be added to a Interface -- false
+
+Which methods preserve parameter names in Java bytecode (through reflection API) -- all methods*
+
+
+Assume that the offset value for Asia/Singapore time zone from UTC/Greenwich is +08:00. Choose the correct option. -- ThrowsDateTimeException*
+
+DateTimeFormatter dateFormat=DateTimeFormatter.ISO_DATE;
+    LocalDate dateOfBirth= LocalDate.of(2015,Month.FEBRUARY,31);
+    System.out.println(dateFormat.format(dateOfBirth));
+Choose the correct option. -- Java DateTimeException
+
+Reactive Programming deals with -- asynchronous
+
+Which package contains Date/Time (JSR 310) API in Java 8--java.util.calendar*
+
+Which is new command line tool for the Nashorn JavaScript engine in java 8 -- jjs
+
+'map' and 'filter' are -- intermediate operations
+
+PermGen space has been replaced with which of these in Java 8 -- metaspace
+
+Example of functional interfaces in Java 8 -- both
+
+import java.time.Clock;
+public class App{
+  public static void main(String [] args){
+    final Clock clock=Clock.systemUTC();
+    System.out.println(clock.instant());
+    System.out.println(clock.millis());
+  }
+}
+Output for the above code is-- compile and execute without any error
+
+Library used to write reactive programs in java -- rxjava
+
+DateTimeFormatter formatter=DateTimeFormatter.ofPattern("EEEE",Locale.US);
+    System.out.println(formatter.format(LocalDateTime.now()));
+Choose the correct output. -- june*
+
+Below code includes a valid Functional Interface ? -- true
+
+We need to override which Predicate method in Java 8. Which is the right method call-- test(T t)
+
+Which method is used to connect the consumer to the source in reactive programming -- subscrbe()
+
+
+
+
+
+
+
+
+
+

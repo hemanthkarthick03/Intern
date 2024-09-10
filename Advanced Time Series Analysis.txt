@@ -1,0 +1,81 @@
+Advanced Time Series Analysis
+
+What is the property of White Noise in an Auto Regression Equation ? -- It has zero mean and unit standard deviation.
+
+The Auto Regression model can be represented as a Moving Average infinity model. -- true
+
+________________________ is said to occur when the variance of the unobservable error , conditional on independent variables, is not Constant. -- homoskedacity* hetero
+
+Non Stationary Time series will have a declining effect ? -- false
+
+What can we say about the time series when the inverse of the lag function converges to zero ? -- it is stationary
+
+The Partial Auto Correlation Function is useful in detecting the Order of AR process. -- true	
+
+Partial Auto Correlation is also known as _____________ -- Conditional Correlation
+
+What is the term used to quantify the relationship between the current value and previous values in a time series known as ? -- Auto Correlation Function
+
+What do you get when you divide Auto Covariace of a Time Series by the Variance value-- Covariance Function* Correlation function*
+
+You take a time series and determine the characteristic equation. You find the roots and conclude that they lie within the unit circle. What can you say about the Time Series --- It is stationary
+
+What is the outcome of Model Fitting process for Auto Regression ? -- Determining the Coefficient
+
+What is the process followed to make a specific metric unitless known as ? -- Normalization
+
+ARIMA (1,0,0) is equivalent to _____________ -- AR model
+
+In an ARMA(p,q) series , what do p and q represent ? -- lag terms
+
+How will you make a non-stationary time series to stationary ? -- Taking Difference between time Series and its Lag
+
+For MA(2) process , the Auto Correlation value for the first two lags will be non zero. -- true
+
+AR , MA and ARMA models can handle non-stationary time series data ? -- false
+
+For an ARMA process __________________ -- ACF and PACF show a geometrically declining trend
+
+
+A model that is efficient and simple is known as ? -- Parsimonious Model
+
+If there is no decay in the ACF values for any number of lags , what can you say about the time series . -- non stationary
+
+Time series is a linear combination of white noise process. This is a representation of _____________ -- Moving Average Model
+
+What is the mechanism used to choose optimal p and q for an ARMA model ? -- Residual Sum of Squares
+
+Exponential smoothing models can be considered as ARIMA models ? -- true
+
+What methodology can be used for Estimating the coefficients in a Time Series Model ? -- 	ols and ml
+
+If the ACF follows a geometric decay and the PACF is significant till lag (p) what process does the time series follow ? -- ar(p)
+
+For a moving average model , the expectation of the dependent variable is ______________ .-- constant
+
+The coefficient for the residual error terms can be negative for a time series. -- true
+
+The Auto Correlation Function is Unitless -- true
+
+ARIMA (1,0,1) is equivalent to _____________ -- arma model
+
+My time series model is predicting well for the available data but not predicting accurately for new data. What problem might I have encountered ? -- over-fitting
+
+ARIMA (0,0,1) is equivalent to _____________ -- ma models
+
+is a form of Auto Regressive model where the coefficient of first lag is 1 . -- random walk model
+
+ARIMA (0,1,0) is equivalent to _____________ --- random walk model
+
+In a time series , the rate of decay will decide the value of the coefficient terms. -- true
+
+What does a p order vector auto regressive process generalize ? -- n variables AR(p) process to n variables*
+
+An Ideal ACF plot will increase exponentially -- false
+
+In exponential smoothing , the weights assigned to lag values should __________________ over time  -- randomize*
+
+
+
+
+

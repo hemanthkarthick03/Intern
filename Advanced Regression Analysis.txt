@@ -1,0 +1,96 @@
+Advanced Regression Analysis
+
+Positive values coefficients increase linear regression piece there by increasing the probability of y = 1 -- true
+
+ROC curve is used to gauge the cost of raising a false alarm -- true
+
+Regression can be used to model the data when the outcome is dichotomous . -- logistic
+
+(True Positive) / (True Positive + False Negative ) is what ? -- sensitivity
+
+In Generalized Linear Models , modeling is done on the scale in which the data is captured. -- true
+
+(True Negative) / (True Negative + False Positive ) is what ? -- Specificity
+
+What is the objective of the baseline method in Logistic Regression ? -- Predict Most Frequent Outcome
+
+The link function in Generalized Linear Model for Bernoulli Distribution is known as  -- logit
+
+A linear Model best predicts when the dependent variable is Binary.-- false
+
+The systematic component in a GLM consists of Linear Predictor . What are they ? -- Covariate and coefficients
+
+In a confusion matrix what do the values in the Row signify ? -- actual outcomes
+
+What are the X and Y axis for the ROC curve ? -- X Axis: False Positive Rate Y Axis: True Positive Rate
+
+Poisson Regression is used for modeling count Data. -- true
+
+You have a dataset where the dependent variable is numeric and the error values are assumed to be normally distributed . What is the best model you will go in this scenario ? -- linear model
+
+ROC stands for-- 
+Receiver Operator Characteristics
+
+What is/are the outcome of optimizing the likelihood function ? -- parameters
+
+What are the three components of a Generalized Linear Model ? -- Random Component , Systematic Component and Link Function
+
+Bagging is and abbreviation for _________________ -- bootstrap aggregation
+
+Bagging and Boosting have a very low memory footprint. -- false
+
+What is the main objective of Boosting ?-- Reduce Prediction Bias
+
+What is the principal concept used in fitting a Tree Algorithm ? -- variance reduction
+
+Trees perform tasks quickly -- true
+
+What class of algorithms do Trees belong ? -- greedy algorithm
+
+Classification and Regression Trees are a set of ______________ Algorithms -- Non Linear Learning
+
+What are the set of Go to algorithms to model non-linear behavior ? - trees
+
+What is the link function in a Poisson Regression model ? -- log
+
+__________ and ________ are techniques that are used for combining multiple models to improve overall accuracy. -- baggging and boosting
+
+In mathematical terms Poisson Regression models _____________ of the count data . -- logarithm
+
+Bagging and Boosting support Stochastic Learning -- true
+
+Trees can be used only for numeric variables. -- false
+
+What is the output of the Bayesian Regression Model ? --Output along with the Probability Distribution
+
+What is the main objective of Bagging ? -- Variance Reduction by Aggregation
+
+Bayesian Regression is Robust to Gaussian Noise -- true
+
+In poisson regression the dependent variable represents _____________ or ______________ -- count or rate
+
+What is a suggested evaluation measure for a Regression Problem ? -- Mean Absolute Error
+
+What is a suggested evaluation measure for a Ranking Problem ? -- Label Ranking Average Precision
+
+When we normally multiply the coefficients with covariates we get a numeric value ? But when we need to get an output in the range 0 to 1 what do we need to perform -- Linear Transformation*
+
+Mean Standard Error is a good evaluation measure for Ranking Problem . -- false
+
+What types of problems will fall under Auto Regression ? -- Time Series Problems
+
+Mean absolute error is a suggested evaluation measure for a classification problem. -- true
+
+Bagging gives flexibility to parallel operations on multiple CPU -- true
+
+
+
+
+
+
+
+
+
+
+
+
